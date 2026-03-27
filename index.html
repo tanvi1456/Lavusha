@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavusha - Blush Dream Fashion</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <!-- <div class="preloader">
+        <div class="preloader-content">
+            <div class="logo-preload">
+                <h1>Lavusha</h1>
+            </div>
+            <div class="loader"></div>
+        </div>
+    </div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <span>Lavusha</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#new" class="nav-link">New In</a></li>
+                <li><a href="#shop" class="nav-link">Shop</a></li>
+                <li><a href="#lookbook" class="nav-link">Lookbook</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="search-btn">
+                    <i class="fas fa-magnifying-glass"></i>
+                    <!-- <div class="search-tooltip">Search Products</div> -->
+                </div>
+                <div class="cart-btn">
+                    <i class="fas fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                    <!-- <div class="cart-tooltip">Cart (0)</div> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="badge">NEW COLLECTION</div>
+                <h1 class="hero-title">
+                   Soft <span class="gradient-text">Contrast</span>
+                </h1>
+                <p class="hero-desc">Pretty dresses for pretty you 💕</p>
+                <div class="hero-cta">
+                    <a href="#new" class="cta-btn primary-btn">Shop Collection</a>
+                    <a href="#lookbook" class="cta-btn secondary-btn">Watch Lookbook</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-dress"><img src="321.jpg" alt="Look 1"></div>
+                <div class="model-figure"><img src="154.jpg" alt="Look 1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section id="new" class="new-arrivals">
+        <div class="container">
+            <div class="section-header">
+                <h2>New Arrivals</h2>
+                <p>Our latest blush pink perfection</p>
+            </div>
+            <div class="product-grid">
+                <!-- Products - Static HTML -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Slip Dress.jpg" alt="Blush Satin Slip Dress">
+                        <div class="product-badge">Hot</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Blush Satin Slip Dress</h3>
+                        <div class="product-price">$89</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(25)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="footware.jpg" alt="Cherry Red Heels">
+                        <div class="product-badge hot">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Cherry Red Heels</h3>
+                        <div class="product-price">$129</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="top.jpg" alt="Cherry Blossom Top">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Cherry Blossom Top</h3>
+                        <div class="product-price">$59</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(18)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="skirt.jpg" alt="High Waist Long Denim Skirt">
+                        <div class="product-badge sale">-20%</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">High Waist Long Denim Skirt</h3>
+                        <div class="product-price"><span class="old-price">$99</span> $79</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(33)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="denim.jpg" alt="Denim Sleeveless V neck cropped denim top ">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sleeveless Vneck Denim Top </h3>
+                        <div class="product-price">$149</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(29)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="top2.jpg" alt="Casual Top , Fit for Office">
+                        <div class="product-badge hot">Hot</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Casual Top, Fit for Office</h3>
+                        <div class="product-price">$129</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="jshuit.jpg" alt="Jumpsuit Ruffle Sleeves">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Jumpsuit Ruffle Sleeves</h3>
+                        <div class="product-price">$59</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(18)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="trouser.jpg" alt="Baggy Hip Hop  Jeans ">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Baggy Hip Hop  Jeans </h3>
+                        <div class="product-price">$59</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(18)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="red.jpg" alt="Sexy V Neck Bodycon Dress">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sexy backless bodycondress</h3>
+                        <div class="product-price">$59</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(18)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="nike.jpg" alt="WMNS Nike Air Force">
+                        <div class="product-badge hot">Hot</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">WMNS Nike Air Force</h3>
+                        <div class="product-price">$129</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="beach.jpg" alt="VNeck Crop-top, Mini skirt" >
+                        <div class="product-badge hot">Hot</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">V Neck Crop Top, Mini skirt</h3>
+                        <div class="product-price">$129</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="sports.jpg" alt="Two Piece Tennis Skirt Set">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Two Piece Tennis Skirt Set</h3>
+                        <div class="product-price">$69</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(22)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="shop" class="categories">
+        <div class="container">
+            <div class="category-grid">
+
+                <div class="category-card dresses" onclick="openDressPage()">
+                    <div class="category-content">
+                        <h2>Dresses</h2>
+                        <p>20+ Styles</p>
+                    </div>
+                </div>
+
+                <div class="category-card dresses">
+                    <div class="category-content">
+                        <h2>Dresses</h2>
+                        <p>20+ Styles</p>
+                    </div>
+                </div>
+
+                <div class="category-card dresses">
+                    <div class="category-content">
+                        <h2>Dresses</h2>
+                        <p>20+ Styles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lookbook -->
+    <section id="lookbook" class="lookbook">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lookbook</h2>
+                <p>See how our girls are wearing it</p>
+            </div>
+            <div class="lookbook-grid">
+                <div class="look-item">
+                    <img src="date.jpg"
+                        alt="Look 1">
+                    <div class="look-overlay">
+                        <h4>Blush Date Night</h4>
+                    </div>
+                </div>
+                <div class="look-item">
+                    <img src="look2.jpg"
+                        alt="Look 2">
+                    <div class="look-overlay">
+                        <h4>Party Perfect</h4>
+                    </div>
+                </div>
+                <div class="look-item">
+                    <img src="look3.jpg"
+                        alt="Look 3">
+                    <div class="look-overlay">
+                        <h4>Casual Chic</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Be the first to know</h2>
+                <p>Subscribe for exclusive offers & new arrivals</p>
+                <form class="newsletter-form" action="#" method="POST">
+                    <input type="email" placeholder="your@email.com" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-heart"></i>
+                        <span>Lavusha</span>
+                    </div>
+                    <p>Blush pink dreams for every girl</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Tops</a></li>
+                        <li><a href="#">Skirts</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lavusha. Made By Pretty Hearts <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    function openDressPage() {
+    // New tab mein dresses.html open
+    window.open('dress.html', '_blank');
+    
+    // Hover effect ke liye active class
+    event.currentTarget.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+        event.currentTarget.style.transform = 'scale(1)';
+    }, 150);
+}
+</script>
+</body>
+
+</html>
